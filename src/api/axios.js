@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const api = axios.create({
-    baseURL: "http://localhost:5000/api"
+    baseURL: "https://foodie-application-1.onrender.com/api"
 });
 
 //attach jwt token automatically to every request
